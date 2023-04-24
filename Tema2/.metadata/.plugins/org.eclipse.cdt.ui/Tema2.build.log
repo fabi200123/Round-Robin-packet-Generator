@@ -1,0 +1,6 @@
+13:42:40 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+
+13:42:40 Build Finished (took 315ms)
+

@@ -1,0 +1,8 @@
+simple FLC
+{
+	parameters: 
+		xml config= xmldoc("conf.xml");
+		int W_HP;
+	gates:
+		input in;
+}

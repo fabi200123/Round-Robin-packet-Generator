@@ -1,0 +1,9 @@
+simple FLC
+{
+	parameters: 
+		xml config= xmldoc("conf.xml");
+	gates:
+		input in;
+		int fromSink;
+		output out;
+}

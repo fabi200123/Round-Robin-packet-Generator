@@ -1,0 +1,38 @@
+file 1475934 1680259374                                         
+version 2
+run Sched1-0-20230331-13:42:44-7124
+attr configname Sched1
+attr datetime 20230331-13:42:44
+attr experiment Sched1
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network RadioSch
+attr processid 7124
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param *.usersCount 3
+param *.nrOfChannels 22
+param *.cycleDuration "1 ms"
+param *.networkLoad 0.9
+param **.user[*].generator.sendIaTime "0.2 ms"
+
+vector 0 RadioSch.flc "delay vector" ETV
+vector 1 RadioSch.flc "result nescalat" ETV
+vector 2 RadioSch.flc "res scalat" ETV
+vector 3 RadioSch.flc "weight vector" ETV
+vector 4 RadioSch.sink lifetime:vector ETV
+attr interpolationmode none
+attr title "lifetime of arrived jobs, vector"
+attr unit s
+4	820 919880 10 163285 0 2701 32768 0 2134.3041359139 3553332.1877835 4596792641.3994
+0	920700 58272 9 217567 0 3600 3601 -1707525 20 -1690507 2915641717047
+1	978972 61843 9 217567 0 3600 3601 1 49 110931 3494087
+2	1040815 58547 9 217567 0 3600 3601 -15 9 -1837 16059
+3	1099362 58265 9 217567 0 3600 3601 1 17 26979 217083
+4	1157627 318305 163286 217571 2701 3600 10958 0 2819.6097632369 2767277.4548518 6831659333.9062
+

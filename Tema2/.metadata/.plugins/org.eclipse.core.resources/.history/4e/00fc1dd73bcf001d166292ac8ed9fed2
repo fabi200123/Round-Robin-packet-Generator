@@ -1,0 +1,71 @@
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Lesser General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+// 
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Lesser General Public License for more details.
+// 
+// You should have received a copy of the GNU Lesser General Public License
+// along with this program.  If not, see http://www.gnu.org/licenses/.
+// 
+
+#include "Sink.h"
+Define_Module(Sink);
+
+void Sink::initialize()
+{
+    lifetimeSignal = registerSignal("lifetime");
+    NetworkLoad = par("NetworkLoad").doubleValue();
+    NrUsers = par("gateSize").intValue();
+    NrOfChannels = par("NrOfChannels").intValue();
+    NrPackets = 0;
+    totalDelay = 0;
+    delay = 0;
+}
+
+void Sink::handleMessage(cMessage *msg)
+{
+    simtime_t lifetime = simTime() - msg->getCreationTime();
+    for(int i = 0; i < NrUsers; i++){
+        if (msg->arrivedOn("rxPackets",i)) {
+            lifetimeStats[i].collect(lifetime);
+            NrPackets++;
+            totalDelay += lifetime.dbl()
+        }
+    }
+
+    int user = 0;//(int)getParentModule()->getParentModule()->par("user_HP");
+    if(user == 0)
+        delay_HP = lifetimeStats[0].getMean();
+
+    EV << "Received " << msg->getName() << ", lifetime: " << lifetime << "s" << endl;
+    emit(lifetimeSignal, lifetime);
+    if(msg->arrivedOn("in")){
+
+    }
+
+    delete msg;
+}
+
+void Sink::finish(){
+    FILE *fp;
+    fp = fopen("rezultate.txt", "a");
+    for(int i = 0; i < NrUsers; i++){
+        //NrPackets e cat genereaza odata
+        sendingTime = (NrUsers * NrPackets) / (NetworkLoad * (NrOfChannels / 1));
+        EV << "lifetime mean user " << i << " " << lifetimeStats[i].getMean() << endl;
+        EV << "lifetime min user " << i << " " << lifetimeStats[i].getMin() << endl;
+        EV << "lifetime max user " << i << " " << lifetimeStats[i].getMax() << endl;
+
+        fprintf(fp, "%.3f, %.0f, %.0f\n", lifetimeStats[i].getMean(), lifetimeStats[i].getMin(), lifetimeStats[i].getMax());
+        char buf[40];
+        sprintf(buf, "my lifetime user%d", i);
+        lifetimeStats[i].recordAs(buf);
+    }
+    fprintf(fp, "%.2f, %.3f\n", NetworkLoad, sendingTime);
+    fclose(fp);
+}

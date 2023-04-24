@@ -1,0 +1,1712 @@
+01:13:02 **** Build of configuration release for project Tema2 ****
+make MODE=release all 
+myQ.cc
+Scheduler.cc
+Sink.cc
+Source.cc
+Creating executable: out/clang-release//Tema2.exe
+12:52:37 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+23:24:26 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+23:26:19 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+23:30:02 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+23:42:07 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+myQ.cc
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+23:43:54 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+myQ.cc
+Creating executable: out/clang-release//Tema2.exe
+C:\omnetpp-5.4.1\tools\win64\mingw64\bin\ld: cannot open output file out/clang-release//Tema2.exe: Permission denied
+clang++.exe: error: unable to remove file: Permission denied
+clang++.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Makefile:95: out/clang-release//Tema2.exe] Error 1
+23:44:34 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+myQ.cc
+myQ.cc:33:13: error: cannot initialize a variable of type 'int' with an rvalue of type 'omnetpp::cGate *'
+        int i = msg->getArrivalGate();
+            ^   ~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make: *** [Makefile:104: out/clang-release//myQ.o] Error 1
+23:44:52 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+myQ.cc
+Creating executable: out/clang-release//Tema2.exe
+23:47:26 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+myQ.cc
+myQ.cc:34:9: error: use of undeclared identifier 'cout'; did you mean 'std::cout'?
+        cout << i << endl;
+        ^~~~
+        std::cout
+C:\omnetpp-5.4.1\tools\win64\mingw64\include\c++\7.1.0\iostream:61:18: note: 'std::cout' declared here
+  extern ostream cout;          /// Linked to standard output
+                 ^
+1 error generated.
+make: *** [Makefile:104: out/clang-release//myQ.o] Error 1
+23:48:00 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+myQ.cc
+Creating executable: out/clang-release//Tema2.exe
+23:50:44 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+myQ.cc
+Creating executable: out/clang-release//Tema2.exe
+00:08:37 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+myQ.cc
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+00:08:53 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+myQ.cc
+Creating executable: out/clang-release//Tema2.exe
+00:09:37 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+myQ.cc
+Creating executable: out/clang-release//Tema2.exe
+00:12:08 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+myQ.cc
+Creating executable: out/clang-release//Tema2.exe
+20:28:44 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+myQ.cc
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+20:32:00 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Scheduler.cc:44:5: error: use of undeclared identifier 'userWeigths'; did you mean 'userWeights'?
+    userWeigths = {5, 10, 1};
+    ^~~~~~~~~~~
+    userWeights
+Scheduler.cc:43:9: note: 'userWeights' declared here
+    int userWeights[NrUsers];
+        ^
+Scheduler.cc:43:21: error: variable-sized object may not be initialized
+    int userWeights[NrUsers];
+                    ^~~~~~~
+Scheduler.cc:45:15: error: variable-sized object may not be initialized
+    int users[NrUsers];
+              ^~~~~~~
+Scheduler.cc:47:24: error: variable-sized object may not be initialized
+    int timeLastServed[NrUsers];
+                       ^~~~~~~
+4 errors generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+20:37:42 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Scheduler.cc:44:5: error: use of undeclared identifier 'userWeigths'; did you mean 'userWeights'?
+    userWeigths = {5, 10, 1};
+    ^~~~~~~~~~~
+    userWeights
+Scheduler.cc:43:9: note: 'userWeights' declared here
+    int userWeights[NrUsers];
+        ^
+Scheduler.cc:43:21: error: variable-sized object may not be initialized
+    int userWeights[NrUsers];
+                    ^~~~~~~
+Scheduler.cc:45:15: error: variable-sized object may not be initialized
+    int users[NrUsers];
+              ^~~~~~~
+Scheduler.cc:47:24: error: variable-sized object may not be initialized
+    int timeLastServed[NrUsers];
+                       ^~~~~~~
+4 errors generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+21:03:38 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+21:04:26 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+myQ.cc
+Creating executable: out/clang-release//Tema2.exe
+21:04:28 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+21:05:50 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+21:32:03 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+myQ.cc
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+21:32:24 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+21:32:45 **** Incremental Build of configuration debug for project Tema2 ****
+make MODE=debug all 
+myQ.cc
+Scheduler.cc
+Sink.cc
+Source.cc
+Creating executable: out/clang-debug//Tema2_dbg.exe
+21:33:59 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+21:37:20 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+21:37:32 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+21:38:42 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+21:39:04 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+21:39:53 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+21:40:40 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+21:41:38 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+21:42:06 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+21:42:43 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+21:43:20 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+21:44:26 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+21:45:05 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+21:45:36 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+21:46:24 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+21:46:43 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+C:\omnetpp-5.4.1\tools\win64\mingw64\bin\ld: cannot open output file out/clang-release//Tema2.exe: Permission denied
+clang++.exe: error: unable to remove file: Permission denied
+clang++.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Makefile:95: out/clang-release//Tema2.exe] Error 1
+21:52:06 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+21:52:15 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+21:52:53 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+21:53:19 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+21:54:12 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+22:28:07 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+22:29:16 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+22:30:38 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+22:31:17 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+22:31:34 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+22:32:10 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+22:34:41 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+22:36:49 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Scheduler.cc:45:18: error: use of undeclared identifier 'userWeigths'
+    int aux[3] = userWeigths;
+                 ^
+1 error generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+22:37:08 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Scheduler.cc:45:9: error: array initializer must be an initializer list
+    int aux[3] = userWeights;
+        ^
+1 error generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+22:38:11 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+22:38:34 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+22:39:22 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+22:40:19 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+22:41:19 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+22:42:35 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+22:44:00 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+22:44:39 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+22:45:47 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+22:47:51 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+22:50:01 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+22:51:06 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+22:52:39 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+22:53:29 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+22:54:04 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+23:04:38 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Scheduler.cc:65:9: error: use of undeclared identifier 'sort'; did you mean 'std::sort'?
+        sort(aux, aux + 3);
+        ^~~~
+        std::sort
+C:\omnetpp-5.4.1\tools\win64\mingw64\include\c++\7.1.0\bits/stl_algo.h:4812:5: note: 'std::sort' declared here
+    sort(_RandomAccessIterator __first, _RandomAccessIterator __last)
+    ^
+1 error generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+23:04:44 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Scheduler.cc:65:9: error: use of undeclared identifier 'sort'; did you mean 'std::sort'?
+        sort(aux, aux + 3);
+        ^~~~
+        std::sort
+C:\omnetpp-5.4.1\tools\win64\mingw64\include\c++\7.1.0\bits/stl_algo.h:4812:5: note: 'std::sort' declared here
+    sort(_RandomAccessIterator __first, _RandomAccessIterator __last)
+    ^
+1 error generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+23:06:01 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Scheduler.cc:66:9: error: use of undeclared identifier 'sort'; did you mean 'std::sort'?
+        sort(aux, aux + 3);
+        ^~~~
+        std::sort
+C:\omnetpp-5.4.1\tools\win64\mingw64\include\c++\7.1.0\bits/stl_algo.h:4812:5: note: 'std::sort' declared here
+    sort(_RandomAccessIterator __first, _RandomAccessIterator __last)
+    ^
+1 error generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+23:06:30 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+23:07:22 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+23:07:43 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+23:35:09 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Scheduler.cc:67:14: error: no member named 'sort' in namespace 'std'
+        std::sort(aux, aux + 3);
+        ~~~~~^
+1 error generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+23:38:26 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+23:40:58 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+23:41:43 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+23:42:15 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+23:43:38 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+23:44:01 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+23:45:17 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+23:50:07 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+23:54:11 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+23:55:01 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+23:56:13 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+23:56:48 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+23:57:19 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+00:03:11 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+00:05:16 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+00:05:47 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+00:06:57 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+00:07:18 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+00:08:39 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+00:10:33 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Scheduler.cc:61:89: error: use of undeclared identifier 'users'
+                if((simTime().raw() - timeLastServed[priorityOfUsers[a]]) * userWeights[users[a]] <
+                                                                                        ^
+Scheduler.cc:62:89: error: use of undeclared identifier 'users'
+                   (simTime().raw() - timeLastServed[priorityOfUsers[b]]) * userWeights[users[b]]){
+                                                                                        ^
+2 errors generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+00:10:46 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+00:13:57 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+00:14:33 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+00:17:22 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+17:07:20 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+17:07:49 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+C:\omnetpp-5.4.1\tools\win64\mingw64\bin\ld: cannot open output file out/clang-release//Tema2.exe: Permission denied
+clang++.exe: error: unable to remove file: Permission denied
+clang++.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Makefile:95: out/clang-release//Tema2.exe] Error 1
+17:08:39 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Creating executable: out/clang-release//Tema2.exe
+17:10:19 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+17:11:16 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Scheduler.cc:112:2: error: expected '}'
+}
+ ^
+Scheduler.cc:42:1: note: to match this '{'
+{
+^
+1 error generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+17:11:52 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+17:12:24 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+17:13:09 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+17:13:30 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+17:14:16 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Scheduler.cc:59:11: error: use of undeclared identifier 'sim_time'
+          sim_time = simTime().raw();
+          ^
+Scheduler.cc:60:21: error: use of undeclared identifier 'sim_time'; did you mean 'simTime'?
+          aux[0] = (sim_time - timeLastServed[priorityOfUsers[0]]) * userWeights[priorityOfUsers[0]];
+                    ^~~~~~~~
+                    simTime
+C:/omnetpp-5.4.1/include/omnetpp/csimulation.h:568:18: note: 'simTime' declared here
+inline simtime_t simTime() {return cSimulation::getActiveSimulation()->getSimTime();}
+                 ^
+Scheduler.cc:60:30: error: arithmetic on a pointer to the function type 'omnetpp::simtime_t ()' (aka 'omnetpp::SimTime ()')
+          aux[0] = (sim_time - timeLastServed[priorityOfUsers[0]]) * userWeights[priorityOfUsers[0]];
+                    ~~~~~~~~ ^
+Scheduler.cc:61:21: error: use of undeclared identifier 'sim_time'; did you mean 'simTime'?
+          aux[1] = (sim_time - timeLastServed[priorityOfUsers[1]]) * userWeights[priorityOfUsers[1]];
+                    ^~~~~~~~
+                    simTime
+C:/omnetpp-5.4.1/include/omnetpp/csimulation.h:568:18: note: 'simTime' declared here
+inline simtime_t simTime() {return cSimulation::getActiveSimulation()->getSimTime();}
+                 ^
+Scheduler.cc:61:30: error: arithmetic on a pointer to the function type 'omnetpp::simtime_t ()' (aka 'omnetpp::SimTime ()')
+          aux[1] = (sim_time - timeLastServed[priorityOfUsers[1]]) * userWeights[priorityOfUsers[1]];
+                    ~~~~~~~~ ^
+Scheduler.cc:62:21: error: use of undeclared identifier 'sim_time'; did you mean 'simTime'?
+          aux[2] = (sim_time - timeLastServed[priorityOfUsers[2]]) * userWeights[priorityOfUsers[2]];
+                    ^~~~~~~~
+                    simTime
+C:/omnetpp-5.4.1/include/omnetpp/csimulation.h:568:18: note: 'simTime' declared here
+inline simtime_t simTime() {return cSimulation::getActiveSimulation()->getSimTime();}
+                 ^
+Scheduler.cc:62:30: error: arithmetic on a pointer to the function type 'omnetpp::simtime_t ()' (aka 'omnetpp::SimTime ()')
+          aux[2] = (sim_time - timeLastServed[priorityOfUsers[2]]) * userWeights[priorityOfUsers[2]];
+                    ~~~~~~~~ ^
+7 errors generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+17:14:36 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+17:15:25 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+17:16:29 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+17:17:19 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+17:18:45 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+17:20:09 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+17:27:24 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+17:38:00 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Scheduler.cc:32:17: error: out-of-line definition of 'Swap' does not match any declaration in 'Scheduler'
+void Scheduler::Swap(int &a, int&b, int timeLastServed[3], int userWeights[3]){
+                ^~~~
+1 error generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+17:38:39 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Scheduler.cc:32:17: error: out-of-line definition of 'Swap' does not match any declaration in 'Scheduler'; did you mean 'swap'?
+void Scheduler::Swap(int &a, int&b, int timeLastServed[3], int userWeights[3]){
+                ^~~~
+                swap
+./Scheduler.h:39:10: note: 'swap' declared here
+    void swap(int &a, int&b, int timeLastServed[3], int userWeights[3]);
+         ^
+1 error generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+17:38:48 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Scheduler.cc:32:17: error: out-of-line definition of 'Swap' does not match any declaration in 'Scheduler'; did you mean 'swap'?
+void Scheduler::Swap(int &a, int&b, int timeLastServed[3], int userWeights[3]){
+                ^~~~
+                swap
+./Scheduler.h:39:18: note: 'swap' declared here
+    virtual void swap(int &a, int&b, int timeLastServed[3], int userWeights[3]);
+                 ^
+1 error generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+17:39:16 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+17:42:52 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+17:44:03 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Scheduler.cc:69:22: error: non-const lvalue reference to type 'int' cannot bind to a temporary of type 'int *'
+                Swap(&priorityOfUsers[y], &priorityOfUsers[x], timeLastServed, userWeights);
+                     ^~~~~~~~~~~~~~~~~~~
+Scheduler.cc:32:27: note: passing argument to parameter 'a' here
+void Scheduler::Swap(int &a, int&b, int timeLastServed[3], int userWeights[3]){
+                          ^
+1 error generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+17:44:09 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Scheduler.cc:69:22: error: non-const lvalue reference to type 'int' cannot bind to a temporary of type 'int *'
+                Swap(&priorityOfUsers[y], &priorityOfUsers[x], timeLastServed, userWeights);
+                     ^~~~~~~~~~~~~~~~~~~
+Scheduler.cc:32:27: note: passing argument to parameter 'a' here
+void Scheduler::Swap(int &a, int&b, int timeLastServed[3], int userWeights[3]){
+                          ^
+1 error generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+17:44:28 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+17:45:01 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+17:48:20 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+17:49:04 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+17:49:31 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+18:53:31 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+18:54:26 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+20:45:45 **** Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+21:12:46 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+myQ.cc
+Scheduler.cc
+Sink.cc
+In file included from Sink.cc:16:
+./Sink.h:35:5: warning: 'cLongHistogram' is deprecated [-Wdeprecated-declarations]
+    cLongHistogram lifetimeStats[20];
+    ^
+C:/omnetpp-5.4.1/include/omnetpp/clegacyhistogram.h:355:7: note: 'cLongHistogram' has been explicitly marked deprecated here
+class _OPPDEPRECATED SIM_API cLongHistogram : public cLegacyHistogram
+      ^
+C:/omnetpp-5.4.1/include/omnetpp/platdep/platdefs.h:58:39: note: expanded from macro '_OPPDEPRECATED'
+#  define _OPPDEPRECATED __attribute((__deprecated__))
+                                      ^
+Sink.cc:47:16: error: use of undeclared identifier 'rezultate'
+    fp = fopen(rezultate.txt, "a");
+               ^
+1 warning and 1 error generated.
+make: *** [Makefile:104: out/clang-release//Sink.o] Error 1
+21:13:31 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Sink.cc
+In file included from Sink.cc:16:
+./Sink.h:35:5: warning: 'cLongHistogram' is deprecated [-Wdeprecated-declarations]
+    cLongHistogram lifetimeStats[20];
+    ^
+C:/omnetpp-5.4.1/include/omnetpp/clegacyhistogram.h:355:7: note: 'cLongHistogram' has been explicitly marked deprecated here
+class _OPPDEPRECATED SIM_API cLongHistogram : public cLegacyHistogram
+      ^
+C:/omnetpp-5.4.1/include/omnetpp/platdep/platdefs.h:58:39: note: expanded from macro '_OPPDEPRECATED'
+#  define _OPPDEPRECATED __attribute((__deprecated__))
+                                      ^
+1 warning generated.
+Creating executable: out/clang-release//Tema2.exe
+21:13:58 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+21:14:42 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+21:16:09 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+In file included from Scheduler.cc:16:
+./Scheduler.h:39:57: error: invalid use of non-static data member 'NrUsers'
+    virtual void Swap(int &a, int&b, int timeLastServed[NrUsers], int userWeights[NrUsers]);
+                                                        ^~~~~~~
+./Scheduler.h:39:83: error: invalid use of non-static data member 'NrUsers'
+    virtual void Swap(int &a, int&b, int timeLastServed[NrUsers], int userWeights[NrUsers]);
+                                                                                  ^~~~~~~
+Scheduler.cc:32:17: error: out-of-line definition of 'Swap' does not match any declaration in 'Scheduler'
+void Scheduler::Swap(int &a, int&b, int timeLastServed[3], int userWeights[3]){
+                ^~~~
+./Scheduler.h:39:18: note: type of 3rd parameter of member declaration does not match definition ('int' vs 'int *')
+    virtual void Swap(int &a, int&b, int timeLastServed[NrUsers], int userWeights[NrUsers]);
+                 ^
+3 errors generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+21:16:56 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+21:20:28 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+21:21:44 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Sink.cc
+In file included from Sink.cc:16:
+./Sink.h:35:5: warning: 'cLongHistogram' is deprecated [-Wdeprecated-declarations]
+    cLongHistogram lifetimeStats[20];
+    ^
+C:/omnetpp-5.4.1/include/omnetpp/clegacyhistogram.h:355:7: note: 'cLongHistogram' has been explicitly marked deprecated here
+class _OPPDEPRECATED SIM_API cLongHistogram : public cLegacyHistogram
+      ^
+C:/omnetpp-5.4.1/include/omnetpp/platdep/platdefs.h:58:39: note: expanded from macro '_OPPDEPRECATED'
+#  define _OPPDEPRECATED __attribute((__deprecated__))
+                                      ^
+1 warning generated.
+Creating executable: out/clang-release//Tema2.exe
+C:\omnetpp-5.4.1\tools\win64\mingw64\bin\ld: cannot open output file out/clang-release//Tema2.exe: Permission denied
+clang++.exe: error: unable to remove file: Permission denied
+clang++.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Makefile:95: out/clang-release//Tema2.exe] Error 1
+21:22:26 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Sink.cc
+In file included from Sink.cc:16:
+./Sink.h:35:5: warning: 'cLongHistogram' is deprecated [-Wdeprecated-declarations]
+    cLongHistogram lifetimeStats[20];
+    ^
+C:/omnetpp-5.4.1/include/omnetpp/clegacyhistogram.h:355:7: note: 'cLongHistogram' has been explicitly marked deprecated here
+class _OPPDEPRECATED SIM_API cLongHistogram : public cLegacyHistogram
+      ^
+C:/omnetpp-5.4.1/include/omnetpp/platdep/platdefs.h:58:39: note: expanded from macro '_OPPDEPRECATED'
+#  define _OPPDEPRECATED __attribute((__deprecated__))
+                                      ^
+1 warning generated.
+Creating executable: out/clang-release//Tema2.exe
+C:\omnetpp-5.4.1\tools\win64\mingw64\bin\ld: cannot open output file out/clang-release//Tema2.exe: Permission denied
+clang++.exe: error: unable to remove file: Permission denied
+clang++.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Makefile:95: out/clang-release//Tema2.exe] Error 1
+21:22:49 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Sink.cc
+In file included from Sink.cc:16:
+./Sink.h:35:5: warning: 'cLongHistogram' is deprecated [-Wdeprecated-declarations]
+    cLongHistogram lifetimeStats[20];
+    ^
+C:/omnetpp-5.4.1/include/omnetpp/clegacyhistogram.h:355:7: note: 'cLongHistogram' has been explicitly marked deprecated here
+class _OPPDEPRECATED SIM_API cLongHistogram : public cLegacyHistogram
+      ^
+C:/omnetpp-5.4.1/include/omnetpp/platdep/platdefs.h:58:39: note: expanded from macro '_OPPDEPRECATED'
+#  define _OPPDEPRECATED __attribute((__deprecated__))
+                                      ^
+1 warning generated.
+Creating executable: out/clang-release//Tema2.exe
+21:24:35 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+C:\omnetpp-5.4.1\tools\win64\mingw64\bin\ld: cannot open output file out/clang-release//Tema2.exe: Permission denied
+clang++.exe: error: unable to remove file: Permission denied
+clang++.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Makefile:95: out/clang-release//Tema2.exe] Error 1
+21:24:51 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Creating executable: out/clang-release//Tema2.exe
+21:27:01 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+21:27:39 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+21:28:08 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+21:31:40 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Scheduler.cc:54:9: error: use of undeclared identifier 'cin'; did you mean 'sin'?
+        cin >> valori[i];
+        ^~~
+        sin
+C:\omnetpp-5.4.1\tools\win64\mingw64\x86_64-w64-mingw32\include\math.h:183:18: note: 'sin' declared here
+  double __cdecl sin(double _X);
+                 ^
+Scheduler.cc:54:13: error: invalid operands to binary expression ('double (*)(double) __attribute__((cdecl))' and 'int')
+        cin >> valori[i];
+        ~~~ ^  ~~~~~~~~~
+2 errors generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+21:32:13 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+21:33:26 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Scheduler.cc:52:16: error: variable-sized object may not be initialized
+    int valori[NrUsers] = {10, 21, 4, 12, 5}; // add/sub values for NrUsers !=5
+               ^~~~~~~
+1 error generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+21:33:38 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+21:36:34 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+21:38:22 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+21:39:13 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+21:39:49 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+21:40:38 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+21:40:55 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+21:41:05 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+21:41:16 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+21:43:07 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Sink.cc
+In file included from Sink.cc:16:
+./Sink.h:35:5: warning: 'cLongHistogram' is deprecated [-Wdeprecated-declarations]
+    cLongHistogram lifetimeStats[20];
+    ^
+C:/omnetpp-5.4.1/include/omnetpp/clegacyhistogram.h:355:7: note: 'cLongHistogram' has been explicitly marked deprecated here
+class _OPPDEPRECATED SIM_API cLongHistogram : public cLegacyHistogram
+      ^
+C:/omnetpp-5.4.1/include/omnetpp/platdep/platdefs.h:58:39: note: expanded from macro '_OPPDEPRECATED'
+#  define _OPPDEPRECATED __attribute((__deprecated__))
+                                      ^
+1 warning generated.
+Creating executable: out/clang-release//Tema2.exe
+20:41:26 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+myQ.cc
+Creating executable: out/clang-release//Tema2.exe
+20:52:31 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+myQ.cc
+Scheduler.cc
+Scheduler.cc:17:10: warning: non-portable path to file '"myQ.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "MyQ.h"
+         ^~~~~~~
+         "myQ.h"
+Scheduler.cc:101:43: error: use of undeclared identifier 'getSize'
+    EV << "Lungimea queue-ului este: " << getSize() << endl;
+                                          ^
+1 warning and 1 error generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+20:52:42 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Scheduler.cc:17:10: warning: non-portable path to file '"myQ.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "MyQ.h"
+         ^~~~~~~
+         "myQ.h"
+Scheduler.cc:101:48: error: call to non-static member function without an object argument
+    EV << "Lungimea queue-ului este: " << MyQ::getSize() << endl;
+                                          ~~~~~^~~~~~~
+Scheduler.cc:101:48: error: 'getSize' is a protected member of 'MyQ'
+./MyQ.h:35:9: note: declared protected here
+    int getSize();
+        ^
+1 warning and 2 errors generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+20:53:12 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+myQ.cc
+Scheduler.cc
+Scheduler.cc:17:10: warning: non-portable path to file '"myQ.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "MyQ.h"
+         ^~~~~~~
+         "myQ.h"
+Scheduler.cc:101:48: error: call to non-static member function without an object argument
+    EV << "Lungimea queue-ului este: " << MyQ::getSize() << endl;
+                                          ~~~~~^~~~~~~
+1 warning and 1 error generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+20:54:09 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+myQ.cc
+Scheduler.cc
+Scheduler.cc:17:10: warning: non-portable path to file '"myQ.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "MyQ.h"
+         ^~~~~~~
+         "myQ.h"
+Scheduler.cc:101:10: error: call to non-static member function without an object argument
+    MyQ::getSize();
+    ~~~~~^~~~~~~
+1 warning and 1 error generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+20:58:44 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+myQ.cc
+myQ.cc:25:10: error: out-of-line definition of 'getSize' does not match any declaration in 'MyQ'
+int MyQ::getSize()
+         ^~~~~~~
+1 error generated.
+make: *** [Makefile:104: out/clang-release//myQ.o] Error 1
+20:59:19 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+myQ.cc
+Scheduler.cc
+Scheduler.cc:17:10: warning: non-portable path to file '"myQ.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "MyQ.h"
+         ^~~~~~~
+         "myQ.h"
+Scheduler.cc:101:20: error: use of undeclared identifier 'getPArentModule'; did you mean 'getParentModule'?
+    cModule *mod = getPArentModule()->getSubmodule("MyQ");
+                   ^~~~~~~~~~~~~~~
+                   getParentModule
+C:/omnetpp-5.4.1/include/omnetpp/cmodule.h:558:22: note: 'getParentModule' declared here
+    virtual cModule *getParentModule() const override;
+                     ^
+Scheduler.cc:102:10: error: no viable conversion from 'MyQ' to 'MyQ *'
+    MyQ *myQ = check_and_cast<MyQ>(mod);
+         ^     ~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from Scheduler.cc:16:
+In file included from ./Scheduler.h:19:
+In file included from C:/omnetpp-5.4.1/include\omnetpp.h:52:
+C:/omnetpp-5.4.1/include/omnetpp/checkandcast.h:65:13: error: 'MyQ' is not a reference or pointer
+    P ret = dynamic_cast<P>(p);
+            ^           ~~~
+Scheduler.cc:102:16: note: in instantiation of function template specialization 'omnetpp::check_and_cast<MyQ, omnetpp::cModule>' requested here
+    MyQ *myQ = check_and_cast<MyQ>(mod);
+               ^
+1 warning and 3 errors generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+20:59:43 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Scheduler.cc:17:10: warning: non-portable path to file '"myQ.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "MyQ.h"
+         ^~~~~~~
+         "myQ.h"
+Scheduler.cc:102:10: error: no viable conversion from 'MyQ' to 'MyQ *'
+    MyQ *myQ = check_and_cast<MyQ>(mod);
+         ^     ~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from Scheduler.cc:16:
+In file included from ./Scheduler.h:19:
+In file included from C:/omnetpp-5.4.1/include\omnetpp.h:52:
+C:/omnetpp-5.4.1/include/omnetpp/checkandcast.h:65:13: error: 'MyQ' is not a reference or pointer
+    P ret = dynamic_cast<P>(p);
+            ^           ~~~
+Scheduler.cc:102:16: note: in instantiation of function template specialization 'omnetpp::check_and_cast<MyQ, omnetpp::cModule>' requested here
+    MyQ *myQ = check_and_cast<MyQ>(mod);
+               ^
+1 warning and 2 errors generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+20:59:59 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Scheduler.cc:102:10: error: no viable conversion from 'MyQ' to 'MyQ *'
+    MyQ *myQ = check_and_cast<MyQ>(mod);
+         ^     ~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from Scheduler.cc:16:
+In file included from ./Scheduler.h:19:
+In file included from C:/omnetpp-5.4.1/include\omnetpp.h:52:
+C:/omnetpp-5.4.1/include/omnetpp/checkandcast.h:65:13: error: 'MyQ' is not a reference or pointer
+    P ret = dynamic_cast<P>(p);
+            ^           ~~~
+Scheduler.cc:102:16: note: in instantiation of function template specialization 'omnetpp::check_and_cast<MyQ, omnetpp::cModule>' requested here
+    MyQ *myQ = check_and_cast<MyQ>(mod);
+               ^
+2 errors generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+21:00:17 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Sink.cc
+In file included from Sink.cc:16:
+./Sink.h:35:5: warning: 'cLongHistogram' is deprecated [-Wdeprecated-declarations]
+    cLongHistogram lifetimeStats[20];
+    ^
+C:/omnetpp-5.4.1/include/omnetpp/clegacyhistogram.h:355:7: note: 'cLongHistogram' has been explicitly marked deprecated here
+class _OPPDEPRECATED SIM_API cLongHistogram : public cLegacyHistogram
+      ^
+C:/omnetpp-5.4.1/include/omnetpp/platdep/platdefs.h:58:39: note: expanded from macro '_OPPDEPRECATED'
+#  define _OPPDEPRECATED __attribute((__deprecated__))
+                                      ^
+1 warning generated.
+Creating executable: out/clang-release//Tema2.exe
+21:00:54 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+21:02:29 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+myQ.cc
+Creating executable: out/clang-release//Tema2.exe
+21:05:37 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+myQ.cc
+Scheduler.cc
+Scheduler.cc:100:36: error: too many arguments to function call, expected 0, have 1
+    cModule *mod = getParentModule("User")->getSubmodule("MyQ");
+                   ~~~~~~~~~~~~~~~ ^~~~~~
+C:/omnetpp-5.4.1/include/omnetpp/cmodule.h:558:5: note: 'getParentModule' declared here
+    virtual cModule *getParentModule() const override;
+    ^
+Scheduler.cc:101:5: error: unknown type name 'MyQ'
+    MyQ *myQ = check_and_cast<MyQ*>(mod);
+    ^
+Scheduler.cc:101:31: error: use of undeclared identifier 'MyQ'; did you mean 'myQ'?
+    MyQ *myQ = check_and_cast<MyQ*>(mod);
+                              ^~~
+                              myQ
+Scheduler.cc:101:10: note: 'myQ' declared here
+    MyQ *myQ = check_and_cast<MyQ*>(mod);
+         ^
+Scheduler.cc:101:35: error: expected expression
+    MyQ *myQ = check_and_cast<MyQ*>(mod);
+                                  ^
+4 errors generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+21:05:58 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Scheduler.cc:101:5: error: unknown type name 'MyQ'
+    MyQ *myQ = check_and_cast<MyQ*>(mod);
+    ^
+Scheduler.cc:101:31: error: use of undeclared identifier 'MyQ'; did you mean 'myQ'?
+    MyQ *myQ = check_and_cast<MyQ*>(mod);
+                              ^~~
+                              myQ
+Scheduler.cc:101:10: note: 'myQ' declared here
+    MyQ *myQ = check_and_cast<MyQ*>(mod);
+         ^
+Scheduler.cc:101:35: error: expected expression
+    MyQ *myQ = check_and_cast<MyQ*>(mod);
+                                  ^
+3 errors generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+21:08:05 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Scheduler.cc:101:5: error: unknown type name 'User'
+    User *user = check_and_cast<User*>(mod);
+    ^
+Scheduler.cc:101:33: error: use of undeclared identifier 'User'; did you mean 'user'?
+    User *user = check_and_cast<User*>(mod);
+                                ^~~~
+                                user
+Scheduler.cc:101:11: note: 'user' declared here
+    User *user = check_and_cast<User*>(mod);
+          ^
+Scheduler.cc:101:38: error: expected expression
+    User *user = check_and_cast<User*>(mod);
+                                     ^
+3 errors generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+21:09:35 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+14:26:01 **** Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Scheduler.cc:41:16: error: out-of-line definition of 'min' does not match any declaration in 'Scheduler'
+int Scheduler::min(int a, int b){
+               ^~~
+1 error generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+14:27:36 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Scheduler.cc:41:16: error: return type of out-of-line definition of 'Scheduler::min' differs from that in the declaration
+int Scheduler::min(int a, int b){
+~~~            ^
+./Scheduler.h:40:18: note: previous declaration is here
+    virtual void min(int a, int b);
+            ~~~~ ^
+1 error generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+14:27:58 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Sink.cc
+In file included from Sink.cc:16:
+./Sink.h:35:5: warning: 'cLongHistogram' is deprecated [-Wdeprecated-declarations]
+    cLongHistogram lifetimeStats[20];
+    ^
+C:/omnetpp-5.4.1/include/omnetpp/clegacyhistogram.h:355:7: note: 'cLongHistogram' has been explicitly marked deprecated here
+class _OPPDEPRECATED SIM_API cLongHistogram : public cLegacyHistogram
+      ^
+C:/omnetpp-5.4.1/include/omnetpp/platdep/platdefs.h:58:39: note: expanded from macro '_OPPDEPRECATED'
+#  define _OPPDEPRECATED __attribute((__deprecated__))
+                                      ^
+1 warning generated.
+Creating executable: out/clang-release//Tema2.exe
+14:31:28 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Scheduler.cc:74:13: error: use of undeclared identifier 'packets'
+            packets[j] = getParentModule()->getSubmodule("user",j)->getSubmodule("myqq")->par("qlp");
+            ^
+Scheduler.cc:75:43: error: use of undeclared identifier 'packets'
+            EV << "packets["<<j<<"]= " << packets[j] <<endl;
+                                          ^
+2 errors generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+14:37:54 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+myQ.cc
+Scheduler.cc
+Scheduler.cc:76:13: error: use of undeclared identifier 'packets'
+            packets[j] = getParentModule()->getSubmodule("user",j)->getSubmodule("myqq")->par("qlp");
+            ^
+Scheduler.cc:77:43: error: use of undeclared identifier 'packets'
+            EV << "packets["<<j<<"]= " << packets[j] <<endl;
+                                          ^
+Scheduler.cc:80:50: error: use of undeclared identifier 'packets'
+        toBeSentPackets[i] = min(userWeights[i], packets[i]);
+                                                 ^
+3 errors generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+14:38:20 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+14:50:50 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Scheduler.cc:115:38: error: use of undeclared identifier 'NrOfChanels'
+                cmd->setKind((short) NrOfChanels - i);
+                                     ^
+Scheduler.cc:116:21: error: use of undeclared identifier 'NrOfChanels'; did you mean 'NrOfChannels'?
+                i = NrOfChanels;
+                    ^~~~~~~~~~~
+                    NrOfChannels
+./Scheduler.h:34:9: note: 'NrOfChannels' declared here
+    int NrOfChannels;
+        ^
+Scheduler.cc:117:56: error: use of undeclared identifier 'NrOfChanels'; did you mean 'NrOfChannels'?
+                toBeSentPackets[priorityOfUsers[j]] -= NrOfChanels - i;
+                                                       ^~~~~~~~~~~
+                                                       NrOfChannels
+./Scheduler.h:34:9: note: 'NrOfChannels' declared here
+    int NrOfChannels;
+        ^
+3 errors generated.
+make: *** [Makefile:104: out/clang-release//Scheduler.o] Error 1
+14:51:16 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+14:52:53 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+myQ.cc
+Creating executable: out/clang-release//Tema2.exe
+C:\omnetpp-5.4.1\tools\win64\mingw64\bin\ld: cannot open output file out/clang-release//Tema2.exe: Permission denied
+clang++.exe: error: unable to remove file: Permission denied
+clang++.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Makefile:95: out/clang-release//Tema2.exe] Error 1
+14:53:46 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Creating executable: out/clang-release//Tema2.exe
+14:55:55 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+14:58:47 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+15:00:03 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+15:01:48 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+15:03:48 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+15:04:16 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+15:10:47 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+15:11:09 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+15:11:38 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+15:12:07 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+15:12:36 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+15:13:08 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+13:58:08 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+14:04:22 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Creating executable: out/clang-release//Tema2.exe
+14:05:54 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+14:11:58 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+17:29:59 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Sink.cc
+In file included from Sink.cc:16:
+./Sink.h:35:5: warning: 'cLongHistogram' is deprecated [-Wdeprecated-declarations]
+    cLongHistogram lifetimeStats[20];
+    ^
+C:/omnetpp-5.4.1/include/omnetpp/clegacyhistogram.h:355:7: note: 'cLongHistogram' has been explicitly marked deprecated here
+class _OPPDEPRECATED SIM_API cLongHistogram : public cLegacyHistogram
+      ^
+C:/omnetpp-5.4.1/include/omnetpp/platdep/platdefs.h:58:39: note: expanded from macro '_OPPDEPRECATED'
+#  define _OPPDEPRECATED __attribute((__deprecated__))
+                                      ^
+1 warning generated.
+Source.cc
+Creating executable: out/clang-release//Tema2.exe
+17:30:46 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+21:37:30 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+23:39:11 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+flc.cc
+gen_flc.cc
+Scheduler.cc
+Sink.cc
+In file included from Sink.cc:16:
+./Sink.h:36:5: warning: 'cLongHistogram' is deprecated [-Wdeprecated-declarations]
+    cLongHistogram lifetimeStats[20];
+    ^
+C:/omnetpp-5.4.1/include/omnetpp/clegacyhistogram.h:355:7: note: 'cLongHistogram' has been explicitly marked deprecated here
+class _OPPDEPRECATED SIM_API cLongHistogram : public cLegacyHistogram
+      ^
+C:/omnetpp-5.4.1/include/omnetpp/platdep/platdefs.h:58:39: note: expanded from macro '_OPPDEPRECATED'
+#  define _OPPDEPRECATED __attribute((__deprecated__))
+                                      ^
+Sink.cc:47:24: error: use of undeclared identifier 'lifetimeStats0'
+            delay_HP = lifetimeStats0.getMean();
+                       ^
+Sink.cc:49:24: error: use of undeclared identifier 'lifetimeStats1'
+            delay_HP = lifetimeStats1.getMean();
+                       ^
+Sink.cc:51:24: error: use of undeclared identifier 'lifetimeStats2'
+            delay_HP = lifetimeStats2.getMean();
+                       ^
+1 warning and 3 errors generated.
+make: *** [Makefile:110: out/clang-release//Sink.o] Error 1
+23:40:58 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Sink.cc
+In file included from Sink.cc:16:
+./Sink.h:36:5: warning: 'cLongHistogram' is deprecated [-Wdeprecated-declarations]
+    cLongHistogram lifetimeStats[20];
+    ^
+C:/omnetpp-5.4.1/include/omnetpp/clegacyhistogram.h:355:7: note: 'cLongHistogram' has been explicitly marked deprecated here
+class _OPPDEPRECATED SIM_API cLongHistogram : public cLegacyHistogram
+      ^
+C:/omnetpp-5.4.1/include/omnetpp/platdep/platdefs.h:58:39: note: expanded from macro '_OPPDEPRECATED'
+#  define _OPPDEPRECATED __attribute((__deprecated__))
+                                      ^
+1 warning generated.
+Creating executable: out/clang-release//Tema2.exe
+23:41:31 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+17:21:07 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+17:24:35 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Sink.cc
+In file included from Sink.cc:16:
+./Sink.h:36:5: warning: 'cLongHistogram' is deprecated [-Wdeprecated-declarations]
+    cLongHistogram lifetimeStats[20];
+    ^
+C:/omnetpp-5.4.1/include/omnetpp/clegacyhistogram.h:355:7: note: 'cLongHistogram' has been explicitly marked deprecated here
+class _OPPDEPRECATED SIM_API cLongHistogram : public cLegacyHistogram
+      ^
+C:/omnetpp-5.4.1/include/omnetpp/platdep/platdefs.h:58:39: note: expanded from macro '_OPPDEPRECATED'
+#  define _OPPDEPRECATED __attribute((__deprecated__))
+                                      ^
+1 warning generated.
+Creating executable: out/clang-release//Tema2.exe
+C:\omnetpp-5.4.1\tools\win64\mingw64\bin\ld: cannot open output file out/clang-release//Tema2.exe: Permission denied
+clang++.exe: error: unable to remove file: Permission denied
+clang++.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Makefile:101: out/clang-release//Tema2.exe] Error 1
+17:25:10 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Creating executable: out/clang-release//Tema2.exe
+17:30:16 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+23:22:04 **** Build of configuration release for project Tema2 ****
+make MODE=release all 
+flc.cc
+Sink.cc
+In file included from Sink.cc:16:
+./Sink.h:36:5: warning: 'cLongHistogram' is deprecated [-Wdeprecated-declarations]
+    cLongHistogram lifetimeStats[20];
+    ^
+C:/omnetpp-5.4.1/include/omnetpp/clegacyhistogram.h:355:7: note: 'cLongHistogram' has been explicitly marked deprecated here
+class _OPPDEPRECATED SIM_API cLongHistogram : public cLegacyHistogram
+      ^
+C:/omnetpp-5.4.1/include/omnetpp/platdep/platdefs.h:58:39: note: expanded from macro '_OPPDEPRECATED'
+#  define _OPPDEPRECATED __attribute((__deprecated__))
+                                      ^
+1 warning generated.
+Creating executable: out/clang-release//Tema2.exe
+23:55:43 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+flc.cc
+Scheduler.cc
+Sink.cc
+In file included from Sink.cc:16:
+./Sink.h:38:5: warning: 'cLongHistogram' is deprecated [-Wdeprecated-declarations]
+    cLongHistogram lifetimeStats[20];
+    ^
+C:/omnetpp-5.4.1/include/omnetpp/clegacyhistogram.h:355:7: note: 'cLongHistogram' has been explicitly marked deprecated here
+class _OPPDEPRECATED SIM_API cLongHistogram : public cLegacyHistogram
+      ^
+C:/omnetpp-5.4.1/include/omnetpp/platdep/platdefs.h:58:39: note: expanded from macro '_OPPDEPRECATED'
+#  define _OPPDEPRECATED __attribute((__deprecated__))
+                                      ^
+1 warning generated.
+Creating executable: out/clang-release//Tema2.exe
+23:59:35 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+23:59:48 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+00:00:51 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+00:01:53 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+00:02:46 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+00:03:20 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+00:06:15 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Sink.cc
+In file included from Sink.cc:16:
+./Sink.h:38:5: warning: 'cLongHistogram' is deprecated [-Wdeprecated-declarations]
+    cLongHistogram lifetimeStats[20];
+    ^
+C:/omnetpp-5.4.1/include/omnetpp/clegacyhistogram.h:355:7: note: 'cLongHistogram' has been explicitly marked deprecated here
+class _OPPDEPRECATED SIM_API cLongHistogram : public cLegacyHistogram
+      ^
+C:/omnetpp-5.4.1/include/omnetpp/platdep/platdefs.h:58:39: note: expanded from macro '_OPPDEPRECATED'
+#  define _OPPDEPRECATED __attribute((__deprecated__))
+                                      ^
+Sink.cc:27:5: error: use of undeclared identifier 'delay'
+    delay = 0;
+    ^
+Sink.cc:46:9: error: use of undeclared identifier 'delay'
+        delay = (int)(totalDelay / NrPackets);
+        ^
+1 warning and 2 errors generated.
+make: *** [Makefile:110: out/clang-release//Sink.o] Error 1
+00:06:42 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Sink.cc
+In file included from Sink.cc:16:
+./Sink.h:38:5: warning: 'cLongHistogram' is deprecated [-Wdeprecated-declarations]
+    cLongHistogram lifetimeStats[20];
+    ^
+C:/omnetpp-5.4.1/include/omnetpp/clegacyhistogram.h:355:7: note: 'cLongHistogram' has been explicitly marked deprecated here
+class _OPPDEPRECATED SIM_API cLongHistogram : public cLegacyHistogram
+      ^
+C:/omnetpp-5.4.1/include/omnetpp/platdep/platdefs.h:58:39: note: expanded from macro '_OPPDEPRECATED'
+#  define _OPPDEPRECATED __attribute((__deprecated__))
+                                      ^
+1 warning generated.
+Creating executable: out/clang-release//Tema2.exe
+00:07:13 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Sink.cc
+In file included from Sink.cc:16:
+./Sink.h:38:5: warning: 'cLongHistogram' is deprecated [-Wdeprecated-declarations]
+    cLongHistogram lifetimeStats[20];
+    ^
+C:/omnetpp-5.4.1/include/omnetpp/clegacyhistogram.h:355:7: note: 'cLongHistogram' has been explicitly marked deprecated here
+class _OPPDEPRECATED SIM_API cLongHistogram : public cLegacyHistogram
+      ^
+C:/omnetpp-5.4.1/include/omnetpp/platdep/platdefs.h:58:39: note: expanded from macro '_OPPDEPRECATED'
+#  define _OPPDEPRECATED __attribute((__deprecated__))
+                                      ^
+Sink.cc:27:5: error: use of undeclared identifier 'delay'
+    delay = 0;
+    ^
+Sink.cc:46:9: error: use of undeclared identifier 'delay'
+        delay = (int)(totalDelay / NrPackets);
+        ^
+1 warning and 2 errors generated.
+make: *** [Makefile:110: out/clang-release//Sink.o] Error 1
+00:07:22 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Sink.cc
+In file included from Sink.cc:16:
+./Sink.h:38:5: warning: 'cLongHistogram' is deprecated [-Wdeprecated-declarations]
+    cLongHistogram lifetimeStats[20];
+    ^
+C:/omnetpp-5.4.1/include/omnetpp/clegacyhistogram.h:355:7: note: 'cLongHistogram' has been explicitly marked deprecated here
+class _OPPDEPRECATED SIM_API cLongHistogram : public cLegacyHistogram
+      ^
+C:/omnetpp-5.4.1/include/omnetpp/platdep/platdefs.h:58:39: note: expanded from macro '_OPPDEPRECATED'
+#  define _OPPDEPRECATED __attribute((__deprecated__))
+                                      ^
+1 warning generated.
+Creating executable: out/clang-release//Tema2.exe
+11:24:31 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+11:25:50 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+11:27:02 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+11:27:14 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+12:38:30 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+12:39:53 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+12:43:18 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+12:50:51 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+flc.cc
+flc.cc:580:28: error: use of undeclared identifier 'currentDelay'
+                int diff = wantedDelay - currentDelay;
+                                         ^
+flc.cc:582:17: error: use of undeclared identifier 'currentDelay'
+                qtime.record (currentDelay);
+                              ^
+2 errors generated.
+make: *** [Makefile:110: out/clang-release//flc.o] Error 1
+12:51:48 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+flc.cc
+Sink.cc
+In file included from Sink.cc:16:
+./Sink.h:38:5: warning: 'cLongHistogram' is deprecated [-Wdeprecated-declarations]
+    cLongHistogram lifetimeStats[20];
+    ^
+C:/omnetpp-5.4.1/include/omnetpp/clegacyhistogram.h:355:7: note: 'cLongHistogram' has been explicitly marked deprecated here
+class _OPPDEPRECATED SIM_API cLongHistogram : public cLegacyHistogram
+      ^
+C:/omnetpp-5.4.1/include/omnetpp/platdep/platdefs.h:58:39: note: expanded from macro '_OPPDEPRECATED'
+#  define _OPPDEPRECATED __attribute((__deprecated__))
+                                      ^
+1 warning generated.
+Creating executable: out/clang-release//Tema2.exe
+12:52:46 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Sink.cc
+In file included from Sink.cc:16:
+./Sink.h:38:5: warning: 'cLongHistogram' is deprecated [-Wdeprecated-declarations]
+    cLongHistogram lifetimeStats[20];
+    ^
+C:/omnetpp-5.4.1/include/omnetpp/clegacyhistogram.h:355:7: note: 'cLongHistogram' has been explicitly marked deprecated here
+class _OPPDEPRECATED SIM_API cLongHistogram : public cLegacyHistogram
+      ^
+C:/omnetpp-5.4.1/include/omnetpp/platdep/platdefs.h:58:39: note: expanded from macro '_OPPDEPRECATED'
+#  define _OPPDEPRECATED __attribute((__deprecated__))
+                                      ^
+1 warning generated.
+Creating executable: out/clang-release//Tema2.exe
+12:54:34 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+12:59:56 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+flc.cc
+Creating executable: out/clang-release//Tema2.exe
+13:00:30 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+flc.cc
+Creating executable: out/clang-release//Tema2.exe
+13:00:50 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+13:01:09 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+13:02:10 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+13:02:46 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+13:03:41 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+13:07:22 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+flc.cc
+Creating executable: out/clang-release//Tema2.exe
+13:09:48 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+13:11:42 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+flc.cc
+Creating executable: out/clang-release//Tema2.exe
+13:14:30 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+flc.cc
+Creating executable: out/clang-release//Tema2.exe
+13:15:54 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+13:18:04 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+flc.cc
+Creating executable: out/clang-release//Tema2.exe
+13:18:30 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+13:24:29 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Sink.cc
+In file included from Sink.cc:16:
+./Sink.h:38:5: warning: 'cLongHistogram' is deprecated [-Wdeprecated-declarations]
+    cLongHistogram lifetimeStats[20];
+    ^
+C:/omnetpp-5.4.1/include/omnetpp/clegacyhistogram.h:355:7: note: 'cLongHistogram' has been explicitly marked deprecated here
+class _OPPDEPRECATED SIM_API cLongHistogram : public cLegacyHistogram
+      ^
+C:/omnetpp-5.4.1/include/omnetpp/platdep/platdefs.h:58:39: note: expanded from macro '_OPPDEPRECATED'
+#  define _OPPDEPRECATED __attribute((__deprecated__))
+                                      ^
+1 warning generated.
+Creating executable: out/clang-release//Tema2.exe
+C:\omnetpp-5.4.1\tools\win64\mingw64\bin\ld: cannot open output file out/clang-release//Tema2.exe: Permission denied
+clang++.exe: error: unable to remove file: Permission denied
+clang++.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Makefile:101: out/clang-release//Tema2.exe] Error 1
+13:24:42 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Creating executable: out/clang-release//Tema2.exe
+13:27:49 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Sink.cc
+In file included from Sink.cc:16:
+./Sink.h:38:5: warning: 'cLongHistogram' is deprecated [-Wdeprecated-declarations]
+    cLongHistogram lifetimeStats[20];
+    ^
+C:/omnetpp-5.4.1/include/omnetpp/clegacyhistogram.h:355:7: note: 'cLongHistogram' has been explicitly marked deprecated here
+class _OPPDEPRECATED SIM_API cLongHistogram : public cLegacyHistogram
+      ^
+C:/omnetpp-5.4.1/include/omnetpp/platdep/platdefs.h:58:39: note: expanded from macro '_OPPDEPRECATED'
+#  define _OPPDEPRECATED __attribute((__deprecated__))
+                                      ^
+1 warning generated.
+Creating executable: out/clang-release//Tema2.exe
+13:30:33 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+flc.cc
+Creating executable: out/clang-release//Tema2.exe
+13:33:05 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+flc.cc
+Creating executable: out/clang-release//Tema2.exe
+13:34:38 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+flc.cc
+Creating executable: out/clang-release//Tema2.exe
+C:\omnetpp-5.4.1\tools\win64\mingw64\bin\ld: cannot open output file out/clang-release//Tema2.exe: Permission denied
+clang++.exe: error: unable to remove file: Permission denied
+clang++.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Makefile:101: out/clang-release//Tema2.exe] Error 1
+13:35:32 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+flc.cc
+Creating executable: out/clang-release//Tema2.exe
+C:\omnetpp-5.4.1\tools\win64\mingw64\bin\ld: cannot open output file out/clang-release//Tema2.exe: Permission denied
+clang++.exe: error: unable to remove file: Permission denied
+clang++.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Makefile:101: out/clang-release//Tema2.exe] Error 1
+13:35:47 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Creating executable: out/clang-release//Tema2.exe
+13:40:19 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+Scheduler.cc
+Sink.cc
+In file included from Sink.cc:16:
+./Sink.h:38:5: warning: 'cLongHistogram' is deprecated [-Wdeprecated-declarations]
+    cLongHistogram lifetimeStats[20];
+    ^
+C:/omnetpp-5.4.1/include/omnetpp/clegacyhistogram.h:355:7: note: 'cLongHistogram' has been explicitly marked deprecated here
+class _OPPDEPRECATED SIM_API cLongHistogram : public cLegacyHistogram
+      ^
+C:/omnetpp-5.4.1/include/omnetpp/platdep/platdefs.h:58:39: note: expanded from macro '_OPPDEPRECATED'
+#  define _OPPDEPRECATED __attribute((__deprecated__))
+                                      ^
+1 warning generated.
+Creating executable: out/clang-release//Tema2.exe
+13:40:49 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+13:41:04 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+13:42:40 **** Incremental Build of configuration release for project Tema2 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.

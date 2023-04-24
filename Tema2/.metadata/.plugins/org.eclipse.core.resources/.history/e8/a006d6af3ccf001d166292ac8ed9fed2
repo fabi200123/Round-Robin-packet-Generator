@@ -1,0 +1,136 @@
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Lesser General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+// 
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Lesser General Public License for more details.
+// 
+// You should have received a copy of the GNU Lesser General Public License
+// along with this program.  If not, see http://www.gnu.org/licenses/.
+// 
+
+#include "Scheduler.h"
+#include <iostream>
+Define_Module(Scheduler);
+
+
+
+Scheduler::Scheduler()
+{
+    selfMsg = nullptr;
+}
+
+Scheduler::~Scheduler()
+{
+    cancelAndDelete(selfMsg);
+}
+
+void Scheduler::Swap(int &a, int&b, int timeLastServed[], int userWeights[]){
+    int aux;
+    if(((simTime().raw() - timeLastServed[a])*userWeights[a]) > ((simTime().raw() - timeLastServed[b])*userWeights[b])){
+        aux = a;
+        a = b;
+        b = aux;
+    }
+}
+
+int Scheduler::min(int a, int b){
+    if(a < b){
+        return a;
+    }
+    else return b;
+}
+
+void Scheduler::initialize()
+{
+    NrUsers = par("gateSize").intValue();
+    NrOfChannels = par("NrOfChannels").intValue();//read from omnetpp.ini
+    selfMsg = new cMessage("selfMsg");
+       scheduleAt(simTime(), selfMsg);
+}
+
+void Scheduler::handleMessage(cMessage *msg)
+{
+    int userWeights[NrUsers];
+    int packets[NrUsers];
+    int toBeSentPackets[NrUsers];
+    int valori[10] = {8, 1, 1}; // add/sub values for NrUsers !=5
+    for(int i =0; i< NrUsers; i++){
+        userWeights[i] = valori[i];
+    }
+
+    // FLC Part
+    user_HP = 0;
+    W_HP = 6;//getParentModule()->getSubmodule("sink")->par("W_HP");
+
+    if(W_HP != 0){
+        userWeights[0] = W_HP;
+    }
+
+    //ordinea prioritatii
+    int priorityOfUsers[NrUsers];
+    int prioritati[NrUsers];
+    for(int i = 0; i < NrUsers; i++){
+        prioritati[i] = i;
+    }
+    for(int i =0; i< NrUsers; i++){
+        priorityOfUsers[i] = prioritati[i];
+    }
+    //suma pachetelor de trimis
+    for(int j = 0; j < NrUsers; j++){
+            packets[j] = getParentModule()->getSubmodule("user",j)->getSubmodule("myqq")->par("qlp");
+            EV << "packets["<<j<<"]= " << packets[j] <<endl;
+    }
+    for(int i = 0; i < NrUsers; i++){
+        toBeSentPackets[i] = min(userWeights[i], packets[i]);
+    }
+    int sum = 0;
+    for(int i = 0; i < NrUsers; i++){
+       sum += toBeSentPackets[i];
+    }
+    int timeLastServed[NrUsers];
+    for(int i = 0; i < NrUsers; i++){
+            timeLastServed[i] = 0;
+    }
+    int counter = 0;
+    if(sum > NrOfChannels){
+        sum = NrOfChannels;
+    }
+    if (msg == selfMsg){
+      for(int i = 0; i < sum;){
+        for(int x = 0; x < NrUsers - 1;){
+            for(int y = x++; y < NrUsers; y++){
+                Swap(priorityOfUsers[x], priorityOfUsers[y], timeLastServed, toBeSentPackets);
+            }
+        }
+        //trimiterea pachetelor
+        for(int j = 0; j < NrUsers; j++){
+            if (toBeSentPackets[priorityOfUsers[j]] > 0 && toBeSentPackets[priorityOfUsers[j]] < NrOfChannels - i){
+                cMessage *cmd = new cMessage("cmd");
+                cmd->setKind((short) toBeSentPackets[priorityOfUsers[i]]);
+                i += toBeSentPackets[priorityOfUsers[j]];
+                toBeSentPackets[priorityOfUsers[j]]=0;
+                send(cmd,"txScheduling", priorityOfUsers[j]);
+                // luam timeLastServed pentru userul servit curent
+                timeLastServed[priorityOfUsers[j]] = simTime().raw();
+            }
+            else if (toBeSentPackets[priorityOfUsers[j]] > 0 && NrOfChannels - i > 0){
+                cMessage *cmd = new cMessage("cmd");
+                cmd->setKind((short) NrOfChannels - i);
+                i = NrOfChannels;
+                toBeSentPackets[priorityOfUsers[j]] -= NrOfChannels - i;
+                send(cmd,"txScheduling", priorityOfUsers[j]);
+                // luam timeLastServed pentru userul servit curent
+                timeLastServed[priorityOfUsers[j]] = simTime().raw();
+            }
+        }
+      }
+
+      scheduleAt(simTime()+par("schedulingPeriod").doubleValue(), selfMsg);
+    }
+
+}
